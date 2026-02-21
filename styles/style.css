@@ -10,7 +10,7 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px;
-	text-shadow: 3px 3px 1px black;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	color: #66cd63;
 }
 
@@ -46,7 +46,6 @@ img {
 .logo-inline, .heading-text {
 	display: inline-block;
 	vertical-align: middle;
-	color: yellow;
 }
 
 .logo-inline {
@@ -54,9 +53,8 @@ img {
 }
 
 .heading-text {
-	font-size: 60px;
-	text-align: center;
-	margin: 0;
+	font-size: 80px;
+	margin: 0 0 0 16%;
 	padding: 20px;
 	text-shadow: 3px 3px 1px black;
 	color: #66cd63;
