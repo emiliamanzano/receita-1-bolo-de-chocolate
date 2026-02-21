@@ -43,10 +43,23 @@ img {
 	margin: 0 auto;
 	max-width: 100%;
 }
+.logo-inline, .heading-text {
+	display: inline-block;
+	vertical-align: middle;
+	color: yellow;
+}
 
-.done {
-	color: darkseagreen;
-	text-decoration: line-through solid black 2px;
+.logo-inline {
+	max-height: 100px;
+}
+
+.heading-text {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	text-shadow: 3px 3px 1px black;
+	color: #66cd63;
 }
 
 
